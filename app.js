@@ -22,7 +22,10 @@ connection.once('open', () => {
 })
 
 // Middleware Dependecies
+
+// Middleware to enable Body reqeusts from forms
 app.use(express.urlencoded({ extended: true }))
+// Middleware that parses JSON
 app.use(express.json())
 
 // EJS Rendering Dependencies
