@@ -262,3 +262,24 @@ footer {
     background: #50565a;
     box-shadow: 2px 1px 0 #50565a;
   }
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+        align-items: center;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        max-width: 400px;
+    }
+
+    main {
+        max-width: 400px;
+        background-color: var(--primary);
+    }
+
+    footer {
+        max-width: 400px;
+    }
+}

@@ -14,6 +14,7 @@ const connection = mongoose.connection
 
 connection.on('error', err => {
     console.log(err);
+    console.log('Error occured while connecting to DB');    
 })
 
 connection.once('open', () => {
