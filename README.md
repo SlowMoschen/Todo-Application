@@ -7,7 +7,7 @@ Small Todo-Application with connection to a MongoDB-Database through an Express.
 - Update Todo - Mark as complete
 - Delete Todo
 
-###Prerequisites
+### Prerequisites
 - Node.js installed
 - Accsess to a MongoDB Account and Database
 
