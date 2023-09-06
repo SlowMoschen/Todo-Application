@@ -8,6 +8,9 @@ Install all Dependencies with "npm istall"
 $ npm install
 ```
 
+### Change Values in .env_dev File
+You need to change the values in the .env File with your selected Port and your MongoDB-URI.
+
 ### Start Dev-Server
 Start the Dev-Server with "npm run dev"
 ```
